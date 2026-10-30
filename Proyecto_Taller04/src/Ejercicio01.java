@@ -1,13 +1,10 @@
-
 import java.util.Scanner;
-
 /**
  * Ejercicio 01: Generar un algoritmo que permite calcular y presentar el área 
  * de un triángulo. Los datos deben ser pedidos al usuario.
  * @author Daniel Rios
  * @version 1.0
  */
-
 public class Ejercicio01 {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
@@ -20,8 +17,11 @@ public class Ejercicio01 {
         System.out.println("Area: " + area);     
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Ingrese base:2
+Ingrese altura:3
+Area: 3.0
+BUILD SUCCESSFUL (total time: 5 seconds)
  */

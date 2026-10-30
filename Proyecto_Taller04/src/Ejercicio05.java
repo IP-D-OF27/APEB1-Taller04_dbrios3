@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 /**
  * Ejercicio 04: Generar un algoritmo que permita calcular y mostrar el costos 
  * de una computadora de escritorio. La misma es comprada por partes; CPU, 
  * teclado, pantalla, ratón.
- *
  * @author Daniel Rios
  * @version 1.0
  */

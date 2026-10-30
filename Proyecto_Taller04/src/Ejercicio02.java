@@ -1,13 +1,10 @@
-
 import java.util.Scanner;
-
 /**
  * Ejercicio 02: Generar un algoritmo que permite ingresar los gastos de tres 
  * hijos de un padre de familia; calcular y mostrar el total de gastos de los hijos del padre de familia.
  * @author Daniel Rios
  * @version 1.0
  */
-
 public class Ejercicio02 {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
@@ -22,7 +19,6 @@ public class Ejercicio02 {
         System.out.println("El total de gastos es: " + total);
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
  * run:

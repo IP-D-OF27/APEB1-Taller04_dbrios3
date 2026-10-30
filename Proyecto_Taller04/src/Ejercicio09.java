@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 /**
  * Ejercicio 09: Desarrolle una solución que determine el estado académico de
  * una persona estudiante en una asignatura universitaria a partir de una
@@ -10,12 +8,10 @@ import java.util.Scanner;
  * final, y La nota final se calcula combinando evaluación continua y examen
  * final. La salida debe indicar “Aprobado”, “Supletorio” o “Reprobado”, y
  * mostrar la nota final redondeada a un decimal.
- *
  * @author Daniel Rios
  * @version 1.0
  */
 public class Ejercicio09 {
-
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         double evaCon, examen, asistencias, notaFi;
@@ -27,16 +23,18 @@ public class Ejercicio09 {
         asistencias = tcl.nextDouble();
         notaFi = (evaCon + examen) / 2;
         if ((asistencias >= 70 && asistencias <= 100)
-                && (evaCon >= 7 && evaCon <= 10) && (examen >= 7 && examen <= 10)
-                && (notaFi >= 7 && notaFi <= 10)) {
+                && (evaCon >= 7 && evaCon <= 10) && (examen >= 7 && examen <= 
+                10) && (notaFi >= 7 && notaFi <= 10)) {
             System.out.println("Su nota final es: " + notaFi + " Aprobado");
         } else {
             if ((asistencias >= 50 && asistencias <= 70)
-                    && (evaCon >= 5 && evaCon <= 7) && (examen >= 5 && examen <= 7)
-                    && (notaFi >= 5 && notaFi <= 7)) {
-                System.out.println("Su nota final es: " + notaFi + " Supletorio");
+                    && (evaCon >= 5 && evaCon <= 7) && (examen >= 5 && examen 
+                    <= 7) && (notaFi >= 5 && notaFi <= 7)) {
+                System.out.println("Su nota final es: " + notaFi + 
+                        " Supletorio");
             } else {
-                System.out.println("Su nota final es: " + notaFi + " Reprobado");
+                System.out.println("Su nota final es: " + notaFi + 
+                        " Reprobado");
             }
         }
     }
